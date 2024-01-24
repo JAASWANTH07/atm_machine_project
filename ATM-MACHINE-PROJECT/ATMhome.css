@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+}
+
+.center-div {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: auto;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 50px;
+    text-align: center;
+}
+
+#options {
+    margin-top: 20px; /* Increase the top margin */
+}
+
+button {
+    display: inline-block; /* Display buttons as blocks */
+    margin: 10px auto; /* Center buttons horizontally with vertical margin */
+    border: 0;
+    border-radius: 40px;
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: black;
+    color: white;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 25px;
+}

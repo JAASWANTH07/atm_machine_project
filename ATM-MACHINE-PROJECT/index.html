@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ATMstyle.css" >
+    
+    <title>ABC ATM</title>
+</head>
+<body>
+    <div class="center-div">
+        <h1>ABC BANK</h1>
+        <label id="errMsg">....</label>
+         
+        <form action="login.php" method="post">
+        <div id="login-portal">
+            <h3>Login</h3><br>
+            <label>Account No:</label><br>
+            <input type="text" name="lAccNo" class="textbox-style margin-button-12" maxlength="13" required><br>
+            <label>Pin No:</label><br>
+            <input type="password" name="lAccPin" class="textbox-style margin-button-12" maxlength="4" required><br>
+            <button id="login-btn" class="margin-button-12" >Login</button><br>
+            <a href="ATMregister.html"><label id="switchToReg" class="switch">Don't have an account? Register</label></a>
+        </div><br>
+      </form>
+    </div>
+</body>
+</html>

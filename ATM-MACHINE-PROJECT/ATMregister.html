@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ATMstyle.css" >
+    
+    <title>ABC ATM</title>
+</head>
+<body>
+    <div class="center-div">
+        <h1>ABC BANK</h1>
+
+        <form action="register.php" method="post">
+        <div id="register-portal">
+            <h3>Register</h3><br>
+            <label>Name:</label><br>
+            <input type="text" name="rAccName" class="textbox-style margin-button-12" required><br>
+            <label>Account No:</label><br>
+            <input type="text" name="rAccNo" class="textbox-style margin-button-12" maxlength="13"  required><br>
+            <label>Pin No:</label><br>
+            <input type="text" name="rAccPin" class="textbox-style margin-button-12" maxlength="4"  required><br>
+            <label>Confirm Pin No:</label><br>
+            <input type="password" name="rConAccPin" class="textbox-style margin-button-12" maxlength="4" required><br>
+            <label>Enter Initial Deposit:</label><br>
+            <input type="text" name="initial-dep" class="textbox-style margin-button-12" required><br>
+            <button id="register-btn" class="margin-button-12">Register</button></a><br>
+            <a href="index.html"><label id="switchToLogin" class="switch">Already have an account? Login</label></a>
+        </div><br>
+        </form>
+    </div>
+</body>
+</html>

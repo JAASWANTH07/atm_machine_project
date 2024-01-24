@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+}
+
+.center-div{
+    background-color: white;
+    color:black;
+    position:absolute;
+    top:50%;
+    left:50%;
+    width:300px;
+    height:auto;
+    transform:translate(-50%,-50%);
+    border:2px solid black;
+    border-radius:30px;
+    padding:50px;
+
+}
+
+.textbox-style
+{
+    margin-top: 15px;
+    padding:4px 0;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.margin-button-12
+{
+    margin-bottom: 12px;;
+}
+
+#change-pin,#transfer-btn
+{
+    margin-top: 15px;
+}
+
+
+
+button
+{
+    border:0;
+    border-radius:40px;
+    font-size:15px;
+    padding:5px 15px;
+    background-color:black;
+    color:white;
+
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+    border:1px solid black;
+}
+
+#portal1 h3{
+    font-size: 10px;
+}
+
+h3,h4,label{
+    display:inline-block;
+    font-size:25px;
+}
+
+
